@@ -172,4 +172,68 @@ fun main() {
     if(eliminação <= ||  == false )}
 
 
+fun main() {
+   /*
+    //println("o println serve para exibir textos no console")
+    /*
+     * para 
+     * fazer
+     * comentários de 
+     * mais
+     * de 
+     * uma
+     * linha
+     */
+    
+    
+  //Exercício - A seleção Brasileira está correndo risco de ser eliminada na fase de grupos
+  //da Copa, o Brasil, só pode se classificar se a Alemanha perder, e se o próprio Brasil
+  //ganhar. As partidas ja passaram , quero saber se o Brasil se classificou ou não
+  //
+  // detalhe: use os operadores Lógicos
+   
+    var brasil = false
+    var alemanha = true  
+    var marrocos = true
+
+    if(!alemanha && brasil && !marrocos){
+        println("Pode isso arnaldo,Brasil classificado!!! Rumo ao hexa Haja Coração")
+    }else{
+        println("Acabooou, eu só queria dar alegria pro meu povo")
+    }
+    */
+        
+    // When - Quando
+    // 
+    // Quando uma determinada condição for verdadeira, outra determinada
+    // ação será executada
+    // 
+    // Estrutura do When:
+    // 
+    // When(var){
+    // valor -> ação a ser executada
+    // outroValor -> ação
+    // maisUm -> ação
+    // outro -> ação
+    // else -> ação
+    // }
+    // 
+    var mes = 2 
+    
+    when(mes){
+        1 ->  println("Acapulco - MEX")
+        2 ->  println("Paris - FRA")
+        3 ->  println("Berlim - ALE")
+        4 ->  println("Monaco - MON")
+        5 ->  println("Pequim - CHI")
+        6 ->  println("Acre - BRA")
+        7 ->  println("Roma - Itália")
+        8 ->  println("Atenas - GRE")
+        9 ->  println("Madrid - ESP")
+        10 -> println("Manchester - ING")
+        11 -> println("Dubai - EAU")
+        else -> println("São Paulo - BRA")
+}
+}
+
 
