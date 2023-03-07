@@ -236,4 +236,49 @@ fun main() {
 }
 }
 
-
+fun main() {
+    
+    //Laços de repetição
+    //While 
+    //Do
+    //
+    // for - para...
+    // 
+    // for - para cada item em uma lista/ ou qualquer tipo de coleção, será executado uma
+    // determinada ação
+    // 
+    // Estrutura do for:
+    // for (item in lista/colection){
+    // ação
+    // }
+    //
+   /* for(item in 1..10){
+        println(item)
+    }
+  
+   //Exercício: faça a tabuada de um numéro de sua escolha ( sem a do 0, a do 01, do 2 e do 10)
+   //. observação: precisa utilizar o laço for
+   
+   for(item in 5..1)
+     println(5*1)
+     println(5*2)
+     println(5*3)
+     println(5*4)
+     println(5*5)
+     println(5*6)
+     println(5*7)
+     println(5*8)
+     println(5*9)
+     println(5*10)
+     */
+     //Repeat - Repita...
+     //
+     //uma determinação será repetida um determinado número de vezes
+     //
+     //
+      var tartaruga = 1 
+      repeat(10){
+          println("||-------------tartaruga------------||")
+          tartaruga++
+}
+}
