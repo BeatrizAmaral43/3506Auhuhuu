@@ -282,3 +282,62 @@ fun main() {
           tartaruga++
 }
 }
+//**********************************************************************
+/**
+ * You can edit, run, and share this code.
+ * play.kotlinlang.org
+ */
+fun main() {
+    
+    //Collections - Coleções
+    //
+    //<> --> tags - servem para especificar o tipo de valor a ser listado
+    //
+    // São determinados conjuntos de itens que podem ser modelados e utilizados
+    // em determinados métodos e operações
+    // 
+    // List - Listas
+    // 
+    // ListOf --> Listam itens de variados tipos
+    // 
+    
+    var genericList = mutableListOf("São Paulo, arroz e pamonha", 25.7f, 23.974, '$', false)
+    println(genericList)
+    var specifcList = listOf<String>("Cruzeiro do Roberto Carlos","Calleri", "5")
+    println(specifcList)
+    
+    
+  // Index - uma posição da collection
+  
+    //Propriedades - List
+    //
+    // .LastIndex
+    // .size
+    // 
+    // 
+    //println(specifcList.lastIndex)
+    //println(specifcList.first())
+    //println(specifcList.size)
+    //
+    //println(specifcList.get(0))
+    //println(specifcList.indexOf("Cruzeiro do roberto carlos"))
+    
+    //Métodos - listOf
+    /*
+    genericList.add(2, "easy")
+    println(genericList)
+    genericList.remove(23.974)
+    println(genericList)
+    genericList.removeAt(3)
+    println(genericList)
+    genericList.set(0, "tartaruga")
+    println(genericList)
+    genericList.clear()
+    println(genericList)
+    */
+    var anotherList = setOf("Pedro", "Diniz", "Pelé", "Ronaldinho", "Marília Mendonça", "Diniz")
+    println(anotherList)
+    
+    var animal = mutableMapOf("tartaruga" to 0, "jabuti" to 1, "tucano" to 2, "Hiena" to 3, "Macaco" to 4)
+    println(animal)
+}
