@@ -341,3 +341,77 @@ fun main() {
     var animal = mutableMapOf("tartaruga" to 0, "jabuti" to 1, "tucano" to 2, "Hiena" to 3, "Macaco" to 4)
     println(animal)
 }
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+fun main() {
+    /*
+     var animal = mutableMapOf("tartaruga" to 0, "jabuti" to 1, "tucano" to 2, "Hiena" to 3, "Macaco" to 4)
+    println(animal)
+    
+    animal.put("capivara incrivel", 5)
+    println(animal)
+    animal.put("leopardo", 9)
+    println(animal)
+    animal.replace("tatu",3)
+    println(animal)
+    */
+     
+     //POO
+     //
+     // Programação Orientada a Objetos
+     // 
+     // Objetos - estados (características: nome, idade, cpf,  )
+     // 
+     // Comportamentos - (andar, comer, dormir, conversar, programar)
+     // 
+     // Classes - Modelos que servem para construção de objetos derivados
+     // 
+     val pessoa1 = Pessoa()
+     pessoa1.nome = "Keyla"
+     println(pessoa1.nome)
+     pessoa1.cpf = "445.177.465.78"
+     println(pessoa1.cpf)
+     pessoa1.idade = 99
+     println(pessoa1.idade)
+     pessoa1.altura = 1.74
+     println(pessoa1.altura)
+     
+ }   
+     
+   class Pessoa(){
+       //declaração de atributos para a classe Pessoa
+       var nome = ""
+       var cpf = ""
+       var idade = 99
+       var altura = 1.74
+       
+       
+    //exercício - Faça uma ficha médica, apontando os resultado do último checkup de um cliente
+    //.permitido usar a mesma classe Pessoa()
+    
+    var Paciente1 = Paciente()
+    Paciente1.nome = "Aline"
+    println(Paciente1.nome)
+    Paciente1.peso = 60kg
+    println(Paciente1.peso)
+    Paciente1."data de nascimento" =
+    println(Paciente."data de nascimento")
+    println(Paciente1.peso)
+    Paciente1.idade = 40
+    println(Paciente1.idade)
+    Paciente1.altura = 1.60
+    println(Paciente1.altura)
+    Paciente1.
+     
+        class Pessoa(){
+       //declaração de atributos para a classe Pessoa
+       var nome = ""
+       var peso = ""     
+       var "data de nascimento" = 08/03/1983
+       var idade = 40
+       var altura = 1.60
+       
+     
+     
+     
+}
