@@ -531,3 +531,30 @@ class ContaBanco(val num: Long, var saldo: Double, var dono: String){
     }
 }
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    
+    // Exercício - Deposito na conta do banco
+   
+  }
+ 
+
+    fun deposito(valor: Double, senha: Int){
+        
+        if(senha == 2984){
+            if(valor > 0){
+                saldo += valor // vai subtrair o Valor do saldo
+                println("Deposito de R$$valor realizado com sucesso")
+            }else{
+            println("Impossível depositar R$$valor")
+                 
+        }else{
+            println("Senha Incorreta! Tente novamente")
+        
+        }
+    
+    
+    }
+    
+    
+}
